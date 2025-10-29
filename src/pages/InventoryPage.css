@@ -1,0 +1,62 @@
+/* In client/src/pages/InventoryPage.css */
+.inventory-page {
+  padding: 3rem 0;
+}
+
+.inventory-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 2rem;
+}
+
+.inventory-header h1 {
+  font-size: 2.8rem;
+}
+
+.controls {
+  display: flex;
+  gap: 2rem;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.control-group label {
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.control-group select {
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 1rem;
+  background: var(--secondary-bg);
+  color: var(--text-primary);
+}
+
+.inventory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.status-message,
+.no-results {
+grid-column: 1 / -1;
+text-align: center;
+font-size: 1.2rem;
+color: var(--text-secondary);
+padding: 4rem 0;
+}
+.status-message.error {
+color: #f87171;
+}
