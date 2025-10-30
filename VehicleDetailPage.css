@@ -1,0 +1,70 @@
+.detail-page {
+padding: 4rem 0;
+}
+
+.detail-grid {
+display: grid;
+grid-template-columns: 2fr 1fr;
+gap: 3rem;
+align-items: flex-start;
+}
+
+.detail-image img {
+width: 100%;
+border-radius: 8px;
+border: 1px solid var(--border-color);
+}
+
+.detail-info h1 {
+font-size: 2.5rem;
+margin-bottom: 0.5rem;
+}
+
+.detail-price {
+font-size: 2rem;
+font-weight: 700;
+color: var(--primary-color);
+margin-bottom: 1.5rem;
+}
+
+.detail-description {
+font-size: 1.1rem;
+line-height: 1.7;
+color: var(--text-secondary);
+margin-bottom: 2rem;
+}
+
+.specs-list {
+list-style: none;
+margin-bottom: 2rem;
+border-top: 1px solid var(--border-color);
+padding-top: 1.5rem;
+}
+
+.specs-list li {
+display: flex;
+justify-content: space-between;
+padding: 0.5rem 0;
+border-bottom: 1px solid var(--border-color);
+}
+
+.features-section h3 {
+font-size: 1.5rem;
+margin-bottom: 1rem;
+}
+
+.features-list {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+gap: 0.75rem;
+margin-bottom: 2.5rem;
+}
+
+.features-list li {
+background: var(--secondary-bg);
+border: 1px solid var(--border-color);
+padding: 0.5rem 1rem;
+border-radius: 20px;
+font-size: 0.9rem;
+}
