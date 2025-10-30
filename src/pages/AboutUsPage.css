@@ -1,0 +1,28 @@
+.about-us-page {
+padding: 5rem 0;
+}
+
+.about-us-page h1 {
+text-align: center;
+font-size: 3rem;
+margin-bottom: 1rem;
+}
+
+.lead {
+text-align: center;
+font-size: 1.3rem;
+color: var(--text-secondary);
+margin-bottom: 4rem;
+}
+
+.about-content {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.about-content p {
+font-size: 1.1rem;
+line-height: 1.8;
+margin-bottom: 1.5rem;
+color: var(--text-secondary);
+}
