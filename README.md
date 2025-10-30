@@ -59,7 +59,7 @@ The application is designed to demonstrate mastery of modern frontend technologi
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/Aryan4283/car-dealership-platform.git
+git clone https://github.com/Aryan4283/CarSaathi-A-Car-Dealership-Platform.git
 cd car-dealership-platform
 ````
 
