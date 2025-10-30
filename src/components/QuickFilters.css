@@ -1,0 +1,33 @@
+/* In client/src/components/QuickFilters.css */
+.quick-filters-section {
+padding: 3rem 0;
+background: var(--white-color);
+text-align: center;
+}
+
+.quick-filters-section h2 {
+margin-bottom: 2rem;
+font-size: 2rem;
+}
+
+.filter-buttons {
+display: flex;
+justify-content: center;
+gap: 1.5rem;
+flex-wrap: wrap;
+}
+
+.filter-btn {
+background: var(--primary-color);
+color: var(--white-color);
+padding: 1rem 2.5rem;
+border-radius: 5px;
+font-size: 1.1rem;
+font-weight: bold;
+transition: transform 0.2s ease-in-out, background-color 0.2s;
+}
+
+.filter-btn:hover {
+background-color: #0056b3;
+transform: translateY(-3px);
+}

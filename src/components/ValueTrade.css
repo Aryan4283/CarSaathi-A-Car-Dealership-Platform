@@ -1,0 +1,25 @@
+/* In client/src/components/ValueTrade.css */
+.value-trade-section {
+background: var(--dark-color);
+color: var(--white-color);
+padding: 4rem 0;
+text-align: center;
+}
+
+.value-trade-section h2 {
+font-size: 2.5rem;
+margin-bottom: 1rem;
+}
+
+.value-trade-section p {
+font-size: 1.2rem;
+margin-bottom: 2rem;
+max-width: 600px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.btn-large {
+padding: 1rem 3rem;
+font-size: 1.2rem;
+}

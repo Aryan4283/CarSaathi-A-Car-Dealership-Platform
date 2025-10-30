@@ -1,0 +1,16 @@
+.featured-vehicles-section {
+padding: 3rem 0;
+background: var(--light-color);
+}
+
+.featured-vehicles-section h2 {
+text-align: center;
+margin-bottom: 2rem;
+font-size: 2rem;
+}
+
+.vehicles-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 1.5rem;
+}
